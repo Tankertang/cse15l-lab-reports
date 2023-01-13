@@ -1,4 +1,4 @@
-#Week 1 Lab Report
+# Week 1 Lab Report
 ***
 We began the lab by introducing ourself to other group members.
 --
@@ -22,3 +22,26 @@ Then we type 'yes' to connect
 After typing yes and putting in our we get this
 ---
 ![Screen Shot 2023-01-12 at 4 43 07 PM (1)](https://user-images.githubusercontent.com/61090478/212246364-380dfeda-1fa2-4cc9-9881-e430c75f2019.png)
+---
+Then we run some command such as 
+'''
+cd ~
+cd
+ls -lat
+ls -a
+ls <directory>
+cp /home/linux/ieng6/cs15lwi23/public/hello.txt ~/
+cat /home/linux/ieng6/cs15lwi23/public/hello.txt
+'''
+Below are results after running in some of the mentioned commands
+---
+![Get Started - week1Discussion - Visual Studio Code 1_12_2023 4_45_34 PM](https://user-images.githubusercontent.com/61090478/212246694-823f3784-f5e4-4b77-889a-e296822971db.png)
+---
+To log out of the remote server in your terminal, you can use:
+
+Ctrl-D
+Run the command 'exit'
+---
+After finishing using the bash terminal, we made a GitHub account to documents are work projects using MarkDown. [Here is a list of common MarkDown References] (https://ucsd-cse15l-w23.github.io/week/week1/).
+
+  

@@ -42,6 +42,6 @@ To log out of the remote server in your terminal, you can use:
 Ctrl-D or
 Run the command `exit`
 ---
-After finishing using the bash terminal, we made a GitHub account to documents are work projects using MarkDown. [Here is a list of common MarkDown References](https://ucsd-cse15l-w23.github.io/week/week1/).
+After finishing using the bash terminal, we made a GitHub account to documents are work projects using MarkDown. [Here is a list of common MarkDown References](https://ucsd-cse15l-w23.github.io/week/week1/). Here is the [Link](https://github.com/Tankertang/cse15l-lab-reports/blob/main/yessir.md) to the website I made. 
 
   

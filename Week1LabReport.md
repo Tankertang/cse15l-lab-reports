@@ -2,7 +2,7 @@
 ***
 We began the lab by introducing ourself to other group members.
 --
-After we install Visual Studio Code(VScode corresponding to our operating system. In order you install VScode we use this [link](https://code.visualstudio.com/).
+After introducing ourself we install Visual Studio Code(VScode) corresponding to our operating system. In order you install VScode we use this [link](https://code.visualstudio.com/).
 ---
 #Image of VScode once installed
 <img width="1440" alt="Screen Shot 2023-01-12 at 4 19 34 PM 2" src="https://user-images.githubusercontent.com/61090478/212238589-8593b0ba-2ee8-44e7-9573-91a1f71103a9.png">

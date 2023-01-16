@@ -7,7 +7,12 @@ After introducing ourself we install Visual Studio Code(VScode) corresponding to
 #Image of VScode once installed
 <img width="1440" alt="Screen Shot 2023-01-12 at 4 19 34 PM 2" src="https://user-images.githubusercontent.com/61090478/212238589-8593b0ba-2ee8-44e7-9573-91a1f71103a9.png">
 ***
-After installing VScode we had to setup VScode to use Git Bash. Since I was using MacOS my VScode came with bash. After switching to bash on terminal we use the command `ssh cs15lwi23zz@ieng6.ucsd.edu` to connect to CSE 15 account.
+After installing VScode we had to setup VScode to use Git Bash. Since I was using MacOS my VScode came with bash. 
+To twitch to bash from the default zsh on terminal. First open up terminal using the Ctrl+ Backtick shortcut. After opening up terminal locate zsh on the bottom right and then to the right of zsh there will be a drop down sign and press that and change to bash.
+<img width="1216" alt="Screen Shot 2023-01-15 at 11 01 28 PM" src="https://user-images.githubusercontent.com/61090478/212617968-6fcd2506-36c7-4203-9af2-dc30977bc337.png">
+
+
+After switching to bash on terminal we use the command `ssh cs15lwi23zz@ieng6.ucsd.edu` to connect to CSE 15 account.
 ***
 After Connectning we are greated with this line of code.
 ```

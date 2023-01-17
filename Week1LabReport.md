@@ -1,4 +1,8 @@
 # Week 1 Lab Report
+* Name: Tonghao Wu
+* Date: 1/16/2023
+* Section: B07
+* PID: A16836645
 ***
 
 We began the lab by introducing ourself to other group members.

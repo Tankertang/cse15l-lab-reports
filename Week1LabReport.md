@@ -63,7 +63,8 @@ Below are results after running in some of the mentioned commands
   
 ***
   
-![Get Started - week1Discussion - Visual Studio Code 1_12_2023 4_45_34 PM](https://user-images.githubusercontent.com/61090478/212246694-823f3784-f5e4-4b77-889a-e296822971db.png)
+![Screen Shot 2023-01-12 at 4 55 51 PM](https://user-images.githubusercontent.com/61090478/212818516-8603c584-b872-4b20-bf59-c9e7500ced39.png)
+
   
 ***
   

@@ -9,11 +9,17 @@ We began the lab by introducing ourself to other group members.
 
 ***
 
-After introducing ourself we install Visual Studio Code(VScode) corresponding to our operating system. In order you install VScode we use this [link](https://code.visualstudio.com/).
+After introducing ourself we install Visual Studio Code(VScode) corresponding to our operating system. In order you install VScode we use this [link](https://code.visualstudio.com/). 
+
+Once you click the link you should see this as the webpage. <img width="1437" alt="Screen Shot 2023-01-25 at 4 26 01 AM" src="https://user-images.githubusercontent.com/61090478/214563206-aa82441a-88d8-4165-98cd-a18b2d6c2072.png">
+
+Click on the big blue button near the center left captioned "Download Mac Universal". Once you click on that blue button a zip file should appear on the bottom of your screen. Click on the zip file once it finish downloading. After clicking on the zip file it will extract VS Code(the actuall application) and it should appear on your finder(for mac) and file explorer(for window).
+
+<img width="629" alt="Screen Shot 2023-01-25 at 4 30 36 AM" src="https://user-images.githubusercontent.com/61090478/214563890-b12b5a26-3229-43fe-ae2f-7fcf9c220494.png">
 
 ***
 
-#Image of VScode once installed
+# Image of VScode once installed
 <img width="1440" alt="Screen Shot 2023-01-12 at 4 19 34 PM 2" src="https://user-images.githubusercontent.com/61090478/212238589-8593b0ba-2ee8-44e7-9573-91a1f71103a9.png">
 
 ***
@@ -56,6 +62,9 @@ Then we run some command such as
 * ls <directory>
 * cp /home/linux/ieng6/cs15lwi23/public/hello.txt ~/
 * cat /home/linux/ieng6/cs15lwi23/public/hello.txt
+  
+The `cd` linux command is to navigate through directories. The `ls` command in Linux is use to list directories. One interesting thing about the `ls` commmand is that on its own lists all files in the current directory except for hidden files command is that it. The `cp` command is use for copying file.
+The `cat` command display the content of the file on the terminal.
   
 ***
   

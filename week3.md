@@ -8,6 +8,33 @@
 
 # Part 1
 
+public String handleRequest(URI url) {
+        
+        if (url.getPath().equals("/")) {
+            return String.format("%s", string);
+        } else if (url.getPath().equals("/increment")) {
+            num += 1;
+            return String.format("Number incremented!");
+        } else {
+            System.out.println("Path: " + url.getPath());
+            if (url.getPath().contains("/add-message")) {
+                size++;
+                String[] parameters = new String[size];
+                String [] store = url.getQuery().split("=");
+                
+                if (store[0].equals("s")) {
+                    string = string+store[1]+"\n";
+                    parameters[i] = string; 
+                    return String.format("%s\n", string);
+                }
+            }
+            return "404 Not Found!";
+        }
+    } 
+ 
+    
+ 
+
 ***
 
 # Part 2

@@ -29,7 +29,8 @@
   }`
   
   
- * First Test of failure-inducing input <img width="657" alt="Screen Shot 2023-01-26 at 5 49 24 PM" src="https://user-images.githubusercontent.com/61090478/215320049-f11130a0-623b-4d57-9ea3-1d7050323053.png">
+ * First Test of failure-inducing input <img width="933" alt="Screen Shot 2023-01-29 at 2 11 14 AM" src="https://user-images.githubusercontent.com/61090478/215320326-f015af4b-2faf-46d3-9bbb-0f7b7adb9f6f.png">
+
 
   
  * Second Test of input that doesn't induce a failure <img width="660" alt="Screen Shot 2023-01-29 at 2 13 12 AM" src="https://user-images.githubusercontent.com/61090478/215319462-2d4bd246-5dcc-4bcc-96a8-f5003fc8e0f1.png">

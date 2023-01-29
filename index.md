@@ -5,3 +5,5 @@ Hello, World?
 
 [LabReportUpdated](Week1LabReport.md)
 ---
+ 
+ [week3](week3.d)

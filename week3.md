@@ -44,4 +44,18 @@ Before: `static int[] reversed(int[] arr) {
     return arr;
   } `
   
+  
+  After: `static int[] reversed(int[] arr) {
+    int[] newArray = new int[arr.length];
+    for(int i = 0; i < arr.length; i += 1) {
+      newArray[i] = arr[arr.length - i - 1];
+    }
+    return newArray;
+  } `
 
+In summary, before it we set arr[i] to equal to newArray[arr.length - i -1], and we set newArray[i] equal to arr[arr.length - i -1]) then return newArray instead of arr. These fixes addresses the issue because, before we set the orignal array to equal to a new array that did not have any element inside. So every time the for loop is run, we are basically setting the original array element that the current index to 0, which is by default what java set the element of an array with no arguement passed in. After switching new array to equal tot the original array, we are able to set the element from the original array into the new array from the last index to the first index and then return that new array, which is the reserve order of the original array.
+
+***
+
+# Part 3
+Something I learned from week 2 lab was the parseInteger function. I learned that the parseInteger allow the user to change a number in a string format to an integer format so that it can be used as an integer.

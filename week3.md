@@ -18,6 +18,6 @@
       arr[i] = newArray[arr.length - i - 1];
     }
     return arr;
-  }'
+  } `
   
   This code is a buggy code.

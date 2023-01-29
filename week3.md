@@ -7,9 +7,13 @@
 ***
 
 # Part 1
+<img width="539" alt="Screen Shot 2023-01-29 at 1 59 40 PM" src="https://user-images.githubusercontent.com/61090478/215358026-1a45141b-6645-45c8-9301-e06743e3b322.png">
 
-public String handleRequest(URI url) {
-        
+<img width="604" alt="Screen Shot 2023-01-29 at 2 00 37 PM" src="https://user-images.githubusercontent.com/61090478/215358039-2095772f-53a8-46b3-9946-f1fc36cf14c8.png">
+
+
+
+`public String handleRequest(URI url) {    
         if (url.getPath().equals("/")) {
             return String.format("%s", string);
         } else if (url.getPath().equals("/increment")) {
@@ -21,7 +25,6 @@ public String handleRequest(URI url) {
                 size++;
                 String[] parameters = new String[size];
                 String [] store = url.getQuery().split("=");
-                
                 if (store[0].equals("s")) {
                     string = string+store[1]+"\n";
                     parameters[i] = string; 
@@ -30,10 +33,12 @@ public String handleRequest(URI url) {
             }
             return "404 Not Found!";
         }
-    } 
+    }`
  
     
- 
+ The revelant arguement to the function is the url which is http://localhost:4000/add/?count=<string>, other revelant values is the value stores in the the <string>. The value store in <value> will be the message displayed in the webpage, for example Hello and How Are You as seen in the screen shots above. 
+        
+ The only value that get changed is if you put an integer(ex. 1,2,-3,20) in the revelant field <string>, they get casted into string from integer.
 
 ***
 

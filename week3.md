@@ -13,12 +13,10 @@
 
 
 
-`public String handleRequest(URI url) { 
-
-        if (url.getPath().equals("/")) {
+ `public String handleRequest(URI url) {`
         
+        if (url.getPath().equals("/")) {
             return String.format("%s", string);
-            
         } else if (url.getPath().equals("/increment")) {
             num += 1;
             return String.format("Number incremented!");
@@ -28,6 +26,7 @@
                 size++;
                 String[] parameters = new String[size];
                 String [] store = url.getQuery().split("=");
+                
                 if (store[0].equals("s")) {
                     string = string+store[1]+"\n";
                     parameters[i] = string; 
@@ -36,7 +35,7 @@
             }
             return "404 Not Found!";
         }
-    }`
+    }
  
     
  The revelant arguement to the function is the url which is http://localhost:4000/add/?count=<string>, other revelant values is the value stores in the the <string>. The value store in <value> will be the message displayed in the webpage, for example Hello and How Are You as seen in the screen shots above. 

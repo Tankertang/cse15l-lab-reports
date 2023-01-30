@@ -13,7 +13,7 @@
 
 
 
- `public String handleRequest(URI url) {`
+    public String handleRequest(URI url) {
         
         if (url.getPath().equals("/")) {
             return String.format("%s", string);
@@ -36,7 +36,8 @@
             return "404 Not Found!";
         }
     }
- 
+
+
     
  The revelant arguement to the function is the url which is http://localhost:4000/add/?count=<string>, other revelant values is the value stores in the the <string>. The value store in <value> will be the message displayed in the webpage, for example Hello and How Are You as seen in the screen shots above. 
         

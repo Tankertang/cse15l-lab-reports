@@ -13,9 +13,12 @@
 
 
 
-`public String handleRequest(URI url) {    
+`public String handleRequest(URI url) { 
+
         if (url.getPath().equals("/")) {
+        
             return String.format("%s", string);
+            
         } else if (url.getPath().equals("/increment")) {
             num += 1;
             return String.format("Number incremented!");

@@ -54,8 +54,8 @@ The `return String.format("%s\n", string);` just return whatever string is store
   
  Below is the failure-inducing input for the buggy program in JUnits test
  ```
-    @Test
-  public void testReversed() {
+ @Test
+ public void testReversed() {
     int [] input2 = {2,4,6};
     assertArrayEquals(new int[]{6,4,2}, ArrayExamples.reversed(input2));
 }
@@ -64,13 +64,13 @@ The `return String.format("%s\n", string);` just return whatever string is store
  Below is an input that doesn’t induce a failure, as a JUnit test
  
  ```
-  @Test
-  public void testReversed() {
+@Test
+public void testReversed() {
     int[] input1 = { };
     assertArrayEquals(new int[]{ }, ArrayExamples.reversed(input1));
-  }
-    
-  ```
+}
+   
+```
   
  * First Test of failure-inducing input <img width="933" alt="Screen Shot 2023-01-29 at 2 11 14 AM" src="https://user-images.githubusercontent.com/61090478/215320326-f015af4b-2faf-46d3-9bbb-0f7b7adb9f6f.png">
 
@@ -81,7 +81,7 @@ The `return String.format("%s\n", string);` just return whatever string is store
 
 Before:
  ```
-    static int[] reversed(int[] arr) {
+static int[] reversed(int[] arr) {
     int[] newArray = new int[arr.length];
     for(int i = 0; i < arr.length; i += 1) {
       arr[i] = newArray[arr.length - i - 1];

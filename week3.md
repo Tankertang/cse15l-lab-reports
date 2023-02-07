@@ -45,9 +45,9 @@
 
 In the two screenshot above, the methods that are being called are `string = string+store[1]+"\n";` and `return String.format("%s\n", string);`.
 
-For the `string = string+store[1]+"\n";` method, it takes the the <string>(`store[1]`) value after the "=" in url and concatenate it with whatever was previously strong in the `string` variable(Note: the `string` variable is initially declared empty, ex. `string = ""`) then indent a new line. Then that string is stored in the variable `string` to be used again whenever the user make another url.
+For the `string = string+store[1]+"\n";` method, it takes the the <string>( ` store[1] ` ) value after the "=" in url and concatenate it with whatever was previously strong in the `string` variable(Note: the `string` variable is initially declared empty, ex. `string = ""`) then indent a new line. Then that string is stored in the variable `string` to be used again whenever the user make another url.
     
-The `return String.format("%s\n", string);` just display whatever string is stored inside the `string` variable onto the webpage. 
+The `return String.format("%s\n", string);` just display whatever string is stored inside the ` string ` variable onto the webpage. 
     
 ***
 

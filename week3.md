@@ -45,7 +45,7 @@ The only value that get changed is if you put an integer(ex. 1,2,-3,20) in the r
 
 In the two screenshot above, the methods that are being called are `string = string+store[1]+"\n";` and `return String.format("%s\n", string);`.
 
-For the `string = string+store[1]+"\n";` method, it takes the the <string> value after the "=" in url and concatenate it with whatever was previously strong in the       `string` variable (Note: the `string` variable is initially declared empty, ex. `string = ""`) then indent a new line. Then that string is stored in the variable `string` to be used again whenever the user make another url.
+For the `string = string+store[1]+"\n";` method, it takes the the <string> value after the "=" in url and concatenate it with whatever was previously stored in the       `string` variable (Note: the `string` variable is initially declared empty, ex. `string = ""`) then indent a new line. Then that string is stored in the variable `string` to be used again whenever the user make another url.
     
 The `return String.format("%s\n", string);` just display whatever string is stored inside the `string` variable onto the webpage. 
     
@@ -55,6 +55,7 @@ The `return String.format("%s\n", string);` just display whatever string is stor
 
   
  Below is the failure-inducing input for the buggy program in JUnits test
+    
  ```
  @Test
  public void testReversed() {
@@ -109,4 +110,5 @@ In summary, before it we set arr[i] to equal to newArray[arr.length - i -1], and
 ***
 
 # Part 3
+    
 Something I learned from week 2 lab was the parseInteger function. I learned that the parseInteger allow the user to change a number in a string format to an integer format so that it can be used as an integer.

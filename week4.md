@@ -37,6 +37,7 @@ A caret (^) metacharacter indicates the beginning of the line. The following com
 * Example 1
 
   <img width="911" alt="Screen Shot 2023-02-11 at 1 58 07 AM" src="https://user-images.githubusercontent.com/61090478/218251955-b9e353f0-d6d4-4056-8a09-1b9294e8a656.png">
+  
 For this example I use `grep -r ^b ./written_2` to search for files that has lines that started with the letter "b".
   
  * Example 2
@@ -62,6 +63,7 @@ I used `grep -r b$ ./written_2` to display lines that end with the letter "b"
 * Example 2
   
  <img width="905" alt="Screen Shot 2023-02-11 at 2 11 22 AM" src="https://user-images.githubusercontent.com/61090478/218252470-86db619b-a1f4-4f14-b4c6-e7d3c69ad1d3.png">
+  
 I used `grep -r arbb$ ./written_2` to display lines that end with the word "arab"  
   
 ***

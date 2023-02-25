@@ -28,4 +28,20 @@
 
 * Step 6
   For step 6 we had to run the tests, demonstrating that they fail. In order to that first I had to `cd lab7` (change directory into the repo). Then compile the java files with `javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java` and then run the test with the command `java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore`.
+![Screenshot 2023-02-24 204659](https://user-images.githubusercontent.com/61090478/221338822-02120120-07e5-4114-8949-89bc1d3e77f0.png)
 
+* Step 7 
+  For step 7 we had edit the code file to fix the failing test. To edit the code I use `nano ListExamples.java` which pulls up this page 
+![Screenshot 2023-02-24 205044](https://user-images.githubusercontent.com/61090478/221338922-4faa013a-4ce2-4855-8d70-f071654e5e4d.png)
+
+
+After getting I went to fix the bug which a typo. Before the code was `index1 +=1;` but it should be `index2 +=1;` because we are indexing the second array. 
+Then after fixing the bug I press `<Ctrl-X>` to exit and then `<y>` to save and then `<enter>` to comfirm the process.
+
+* Step 8
+  For step 8 we had to run the tests, demonstrating that they now succeed. I press the `<up>` arrow three time to get to `javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java` to recompile, then I press the `<arrow>` arrow three times again to get `java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore` to retest it to make sure the bug was fixed(which it was).
+![Screenshot 2023-02-24 205401](https://user-images.githubusercontent.com/61090478/221339098-bc361708-5807-44ab-a565-721ccb8ded92.png)
+
+* Step 9
+ For step 9 we had Commit and push the resulting change to your Github account. First I began with `git add .` to stage all changes in the current directory and its subdirectories for the next commit. Then I used `git commit -m <message>` to create a new commit in my Git repository with message of the change. Then I use `git push` to push it to the repository in the Github account.
+![Screenshot 2023-02-24 210640](https://user-images.githubusercontent.com/61090478/221339457-a12ebc7c-558a-4816-9b8c-b5035daaf432.png)

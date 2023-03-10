@@ -19,8 +19,31 @@
   For step 3 I started a timer on my phone to time my progress. No Screenshot.
   
  * Step 4
-  For step 4 we to login into our ieng6 account. 1) To login to our ieng6 account we have to type `ssh cse15lwizz@ieng6.ucsd.edu`, after typing that command into the terminal we are prompted with a respone to type in our coruse password which I typed in.
+  For step 4 we to login into our ieng6 account. 1) To login to our ieng6 account we have to type `ssh cse15lwizz@ieng6.ucsd.edu`, after typing that command into the terminal we are prompted with a respone to type in our coruse password which I typed in. (Hint) --> You can make this process faster and not have to type by Generating SSH Keys for ieng6. Generating SSH key are key pairs that are used for automating logins, single sign-on, and for authenticating hosts.
     ![Screenshot 2023-02-24 203926](https://user-images.githubusercontent.com/61090478/221338545-0809c3ef-2305-4c54-9838-df22fd9ea276.png)
+    
+##  Generating SSH Keys step for ieng6
+ In your local terminal, run `ssh-keygen`
+Keep entering ` <Enter> ` until the program shows some text it calles the “randomart image”.
+  
+Note the path where the public key is saved (underlined below).
+  
+Now, log into your remote course specific account on `ieng6`
+  
+Run `mkdir .ssh` in the terminal
+  
+Logout of your remote account
+  
+Now, we want to copy the public SSH key you created onto your remote account, specifically inside the .ssh directory you just created, in a file called authorized_keys.
+  
+Scroll up a bit to where you were creating the SSH key, find the line where it says: Your public key has been saved in: <path to your public SSH key>, copy the path. Make sure you get the public key file, ending in .pub, here, not the private file.
+  
+From your local computer, run scp <path to your public SSH key> cs15lwi23__@ieng6.ucsd.edu:~/.ssh/authorized_keys
+  
+Enter password when prompted (this will be the last time you have to type it!)
+  
+Try to log onto your remote account again, you shouldn’t be prompted for a password anymore.
+    
     
  * Step 5
    For step 5 we had to clone your fork of the repository from your Github account, into to clone the repo into our terminal we have to get the url from that repo then type in the command `git clone <repo-url>`.

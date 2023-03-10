@@ -58,7 +58,8 @@ Try to log onto your remote account again, you shouldn’t be prompted for a pas
 ![Screenshot 2023-02-24 205044](https://user-images.githubusercontent.com/61090478/221338922-4faa013a-4ce2-4855-8d70-f071654e5e4d.png)
 
 
-After getting I went to fix the bug which a typo. Before the code was `index1 +=1;` but it should be `index2 +=1;` because we are indexing the second array. 
+After getting that page I went to fix the bug which a typo.
+First I used my mousepad and scroll down to line 43. After getting to link 43 I pressed the `<Right Arrow>` key 12 times to get to the `1` in `index1 +=1. Then I pressed `<Backspace>` to delete the `1` and change it `2`. Before the code was `index1 +=1;` but after the change it should should be `index2 +=1;` because we are indexing the second array. 
 Then after fixing the bug I press `<Ctrl-X>` to exit and then `<y>` to save and then `<enter>` to comfirm the process.
 
 * Step 8

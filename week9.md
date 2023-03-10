@@ -25,3 +25,6 @@ command find the `string` your look for in that folder. Below is a picture of me
 
 ***
 
+An alternative to `find` is `ls`. This command lists the contents of a directory, so it's useful for finding files in a specific directory. You can use the -l option to see more detailed information about each file.
+
+An alternative to `grep` is `Tre-agrep`. `Tre-agrep`ter has all of grep's functionality but can also do ambiguous or fuzzy searches without deep knowledge of regular expressions. 

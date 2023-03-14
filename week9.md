@@ -6,7 +6,7 @@
 
 ***
 
-I will be doing my lab report on ab report 3 (about find/grep etc). The reason why I chose this as my favorite lab is because how practical it is.
+I will be doing my lab report on lab report 3 (about find/grep etc). The reason why I chose this as my favorite lab is because how practical it is.
 After finishing lab report and learning about how to use `find`and `grep` to find files and words in a file, I used what I learned to find files on my Mac  
 latop.
 
